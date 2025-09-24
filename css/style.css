@@ -19,7 +19,7 @@ header{
     a:link{
         color: #c8c8ff;
     }
-    height: 80px;
+    height: auto;
     text-align: center;
 }
 main{
@@ -27,6 +27,7 @@ main{
     color: #FAFAFF;
     padding: 20px;
     min-height: 100vh;
+    text-align: center;
 }
 @media screen and (max-width:767px) {
 	iframe[src*="youtube"] {
