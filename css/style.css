@@ -40,11 +40,9 @@ main{
     text-align: center;
 }
 
-@media screen and (max-width:767px) {
-	iframe[src*="youtube"] {
-		width: 100% !important;
-		height: 200px !important;
-}
+video {
+    width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width: 600px) {
