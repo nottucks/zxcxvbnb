@@ -22,13 +22,13 @@ header{
     text-align: center;
 }
 
-.navbar a:link{
+a:link{
     color: #c8c8ff;
 }
-.navbar a:visited{
+a:visited{
     color: #aeaede;
 }
-.navbar a:hover{
+a:hover{
     color: #9494be;
 }
 
