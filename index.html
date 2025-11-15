@@ -8,33 +8,39 @@
 <body>
     <header>
         <h1>HOMEPAGE FOR:</h1>
-        <h2><a href="https://x.com/bnbvxcxz/"style="color:#c8c8ff";>bnbvxcxz, <a href="https://ixxz.zxcxvbnb.xn--6frz82g/"style="color:#c8c8ff";>ixxz</a>, <a href="https://soundcloud.com/quirm"style="color:#c8c8ff;">quirm</a>, <a href="https://soundcloud.com/kanyewest62"style="color:#c8c8ff;">kanyewest62</a>, <a href="https://vivivy.bandcamp.com/"style="color:#c8c8ff">vivivy</a>, <a href="https://discord.com/users/525329622175449088/">nottucks</h2>
-    </header>
+        <h2><a href="https://x.com/bnbvxcxz/"style="color:#c8c8ff";>bnbvxcxz</a>, <a href="https://ixxz.zxcxvbnb.xn--6frz82g/"style="color:#c8c8ff";>ixxz</a>, <a href="https://soundcloud.com/quirm"style="color:#c8c8ff;">quirm</a>, <a href="https://soundcloud.com/kanyewest62"style="color:#c8c8ff;">kanyewest62</a>, <a href="https://vivivy.bandcamp.com/"style="color:#c8c8ff">vivivy</a>, <a href="https://discord.com/users/525329622175449088/">nottucks</a></h2>
+        <h3>Last played on last.fm:</h3>
+            <div class="lastfm-song">
+                 <h3>&#127911; <span id="song">Loading...</span></p>
+        </div>
+        </header>
     <nav class="navbar">
         <a href="/html/links.html">links</a>
         <a href="/html/blog.html">blog</a>
     <main>
         <section>
             <h2>thankls for visiting my web site</h2>
-            <h5>my impression of flirting with my future girlfriend: hello. i have wired earbuds and a DAP (Sony NW-A55). i have a converter for my phone in case i get desperate. i now also have a classwork phone without cell service that i put my sd card into but ive been thinking about switching back to the DAP as of late</h2>
-        </section>
-        <section>
-            <h2>IMPORTANT VIDEOS</h3>
-            <h4>Unknown Jamaican Song.mp4</h4>
-            <video autoplay muted controls loop>
-                <source src="/videos/Unknown Jamaican Song.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <h4>yagami smoking so freaking hard bruh wtf.mp4</h2>
-            <video autoplay muted controls loop>
-                <source src="/videos/yagami smoking dude wtf.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <h4>Playboi Carti - Peter Pan ft. Bladee (WLR LEAK 2020!).mp4</h4>
-            <video controls >
-                <source src="/videos/Playboi Carti - Peter Pan ft. Bladee (WLR LEAK 2020!).mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <h3>check out my last album:</h3>
+            <div style="max-width: 700px; margin: 0 auto;">
+                <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2434428607/size=large/bgcol=ffffff/linkcol=333333/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://vivivy.bandcamp.com/album/eciai">ECIAI by vivivy</a></iframe>
+            </div>
         </section>
     </main>
+    <footer>
+        <p>© 2025 bnbvxcxz</p>
+        <p>last.fm widget by <a href="https://github.com/biancarosa/lastfm-last-played" target="_blank">@biancarosa/lastfm-last-played</a></p>
+    </footer>
 </body>
+
+<!--dude i try and be smart about things but i do not care about learning javascript for this bullshit lol sorry if the vibe code is slop-->
+<script>
+        let user = 'nottucks';
+        let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
+        let song = document.querySelector('#song');
+
+        fetch(url)
+            .then(response => response.json())
+            .then(json => {
+                song.innerHTML = json['track']['name'] + ' - ' + json['track']['artist']['#text'];
+            });
+    </script>

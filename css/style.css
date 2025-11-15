@@ -14,6 +14,7 @@ header{
     color: #FAFAFF;
     text-align: center;
     padding: 1px;
+    line-height: 1;
 }
 
 .navbar {
@@ -38,9 +39,19 @@ a:active{
 main{
     background-color: rgb(22, 23, 28);
     color: #FAFAFF;
-    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     min-height: 100vh;
+    line-height: 1;
     text-align: center;
+}
+
+footer{
+    background-color: #23252d;
+    color: #FAFAFF;
+    font-size: 80%;
+    padding: 5px;
+    line-height: 1;
 }
 
 video {
