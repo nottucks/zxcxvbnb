@@ -1,0 +1,30 @@
+name: Deploy to server
+
+on:
+  push:
+    branches:
+      - prod
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Connect Tailscale
+        uses: tailscale/github-action@v3
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:github-actions
+
+      - name: Deploy to VPS
+        env:
+          VPS_IP: ${{ secrets.VPS_TAILSCALE_IP }}
+        run: |
+          rsync -avz --delete \
+            -e "tailscale ssh" \
+            --exclude '.git*' \
+            --exclude '.github*' \
+            ./ root@$VPS_IP:/var/www/ixxz.online/
