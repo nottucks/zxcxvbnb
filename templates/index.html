@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ config.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    {% include "header.html" %}
+
+    <main>
+        <h3>latest release:</h3>
+        <iframe style="border: 0; width: 100%; height: 120px;"
+            src="https://bandcamp.com/EmbeddedPlayer/album=2434428607/size=large/bgcol=16171c/linkcol=c8c8ff/tracklist=false/artwork=small/transparent=true/"
+            seamless><a href="https://vivivy.bandcamp.com/album/eciai">ECIAI by vivivy</a></iframe>
+    </main>
+
+    <footer>
+        <hr>
+        <p id="now-playing">🎧 <span id="song">loading...</span></p>
+        <p>if you want to use any of the code from this site go ahead lolz</p>
+    </footer>
+
+    <script>
+        fetch('https://lastfm-last-played.biancarosa.com.br/nottucks/latest-song')
+            .then(res => res.json())
+            .then(data => {
+                const track = data?.track;
+                if (track) document.getElementById('song').textContent = `${track.name} — ${track.artist['#text']}`;
+            })
+            .catch(() => { document.getElementById('song').textContent = 'offline'; });
+    </script>
+</body>
+
+</html>
