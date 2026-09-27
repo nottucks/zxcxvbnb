@@ -34,13 +34,12 @@ My name is Oliver, and I'm a CSci student currently going through a bachelor's p
 .`                                 `/    Memory: 9.35 GiB / 15.19 GiB (62%)
                                          Swap: 1.03 GiB / 4.00 GiB (26%)
                                          Disk (/): 590.05 GiB / 936.84 GiB (63%) - ext4
-                                         Local IP (wlan0): 10.133.15.213/18
                                          Battery (L23M4PF3): 100% [AC Connected]
                                          Locale: en_US.UTF-8
 ```
 ```bash
 ~
-❯ fastfetch --config none
+❯ fastfetch
                   -`                     nottucks@AHHHHHHHHHHHHHH
                  .o+`                    ------------------------
                 `ooo/                    OS: Arch Linux x86_64
@@ -65,7 +64,6 @@ My name is Oliver, and I'm a CSci student currently going through a bachelor's p
                                          Swap: 0 B / 4.00 GiB (0%)
                                          Disk (/): 1.02 TiB / 1.79 TiB (57%) - ext4
                                          Disk (/mnt/data): 978.84 GiB / 1.24 TiB (77%) - ext4
-                                         Local IP (enp8s0f3u1u1): 146.57.82.200/24
                                          Battery (L22C4PA2): 80% [AC Connected]
                                          Locale: en_US.UTF-8                    
 ```
@@ -74,6 +72,9 @@ What else to talk about...
 
 # Keyboards
 
-I'm a big fan of split ortholinear ergonomic keyboards. I spent all last summer getting good at using them, and now I'm about as good on a split keyboard as I am on a normal one. 
+I'm a big fan of split ortholinear ergonomic keyboards. I spent all a lot of time getting good at using them, and now I'm about as good on a split keyboard as I am on a normal one. 
 
-## TODO: FINISH AND TALK ABOUT MY SOFLE AND MY SILAKKA54
+My current main keyboard is a Sofle v2 on zmk with two nice_oled panels. The switches are Outemu Crystal Clear V3 Silent Lemons, but I might get something different later if I find tactile switches that are as quiet without feeling mushy. The keycaps are TaiHao Thins, which were so absurdly expensive it's crazy lmfao. Shit was 50 dollars. I also sometimes bring out my Silakka54, which unfortunately had the TRRS port break off the board in my bag on the way to college. It has Outemu Crystal Clear V3 Silent Peaches in it, and just has some wholly clear XDA caps.
+
+If you want to see the [FW for my Sofle, check it out in this hotlink.](https://github.com/nottucks/zmk-sofle-oled)
+
