@@ -20,11 +20,7 @@ jobs:
           tags: tag:github-actions
 
       - name: Deploy to VPS
-        env:
-          VPS_IP: ${{ secrets.VPS_TAILSCALE_IP }}
-        run: |
-          rsync -avz --delete \
-            -e "tailscale ssh" \
-            --exclude '.git*' \
-            --exclude '.github*' \
-            ./ root@$VPS_IP:/var/www/ixxz.moe/
+              env:
+                VPS_IP: ${{ secrets.VPS_TAILSCALE_IP }}
+              run: |
+                tar --exclude='.git*' -czf - . | tailscale ssh root@$VPS_IP "tar -xzf - -C /var/www/ixxz.moe && chown -R caddy:caddy /var/www/ixxz.moe"
