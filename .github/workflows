@@ -27,4 +27,4 @@ jobs:
             -e "tailscale ssh" \
             --exclude '.git*' \
             --exclude '.github*' \
-            ./ root@$VPS_IP:/var/www/ixxz.online/
+            ./ root@$VPS_IP:/var/www/ixxz.moe/
