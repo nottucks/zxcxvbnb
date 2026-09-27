@@ -19,7 +19,7 @@ jobs:
           sudo mv zola /usr/local/bin/
 
       - name: Build Site
-        run: zola build
+        run: zola --config zola.toml build
 
       - name: Connect Tailscale
         uses: tailscale/github-action@v3

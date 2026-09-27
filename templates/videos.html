@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ page.title }} - {{ config.title }}</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="{{ get_url(path='style.css', cachebust=true) | safe }}">
 </head>
 
 <body>
