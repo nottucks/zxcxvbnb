@@ -4,16 +4,37 @@ title = "about me"
 
 # About This Website
 
-This website was honestly started as almost a joke, I wanted to make a webpage but when I was purely motivated by the idea of having a funny TLD. I think "移动" (xn--6frz82g) is fairly unique. It's been fun, though, I've spent a couple nights up late doing stuff on here when I'm not busy with college stuff. I don't like actual web dev but I think developer UX is pretty and utilitarian.
-
-I think that's a good segway into my next topic:
-
-### What influenced me to have my website look the way it does (outside of pure simplicity)?
-
-The main reason I even had a slight interest in writing a website (as well as putting any amount of content on it) was mostly just because I've had a habit of reading the blogposts on [danluu.com](https://danluu.com/), and I really really liked his color choices and general theme for his site, though I don't center mine anywhere near as much on my blog posts. I think simple utilitarian design is just pleasant to interact with and navigate, and atop that it's also easy to write. Just a little bonus for the tastes I have.
-
-Before I move on, I'd like to say one thing. If anyone has any criticism of my code, or otherwise is just curious, please please please go check it out on [the github project](https://github.com/nottucks/zxcxvbnb). I'm well aware I'm new to this stuff and I'd love some feedback if I'm doing something absolutely atrocious.
+This website was honestly started as almost a joke, I wanted to make a webpage but when I was purely motivated by the idea of having a funny TLD. At the time I thought "移动" (xn--6frz82g) was fairly unique. Maybe I'm too insular, haha. Anyways, it was fun and I spent a shitload of time working on this website. There was one key flaw in my choice to use some random chinese TLD. Bluesky's [social-app](https://github.com/bluesky-social/social-app) doesn't actually properly handle it. So for a year straight I just flat out didn't see people @-ing me on the whole platform unless they used alternative clients. Fun stuff.
 
 # About Me
 
-At the <span title="11/15/2025">time of writing this</span>, I'm 18 years old. My birthday is December 5th (2006), and I'm currently a college freshman in pursuit of a CS degree. None of that shit is that interesting, though. My main hobby is listening to music, I absolutely love a lot of indie (some niche and some not). I'm not gonna do into deep detail about music, at least for the purposes of this page, otherwise I'd write far more than I have and will. My favorite anime My favorite film is 12 Angry Men (1957).
+My name is Oliver, and I'm a CSci student currently going through a bachelor's program in my home state of Minnesota. I daily drive Arch on two laptops, of which are shown here under fastfetch:
+
+```bash
+~
+❯ fastfetch
+                  -`                     nottucks@14ill10
+                 .o+`                    ----------------
+                `ooo/                    OS: Arch Linux x86_64
+               `+oooo:                   Host: 83MC (Lenovo Slim 7 14ILL10)
+              `+oooooo:                  Kernel: Linux 7.2.7-arch1-1
+              -+oooooo+:                 Uptime: 9 hours, 48 mins
+            `/:-:++oooo+:                Packages: 16 (flatpak), 1540 (pacman)
+           `/++++/+++++++:               Shell: bash 5.3.20
+          `/++++++++++++++:              Display (SDC4208): 1920x1200 in 14", 60 Hz [Built-in]
+         `/+++ooooooooooooo/`            Window Manager: Hyprland 0.56.2 (Wayland)
+        ./ooosssso++osssssso+`           Theme: Fusion [Qt], Breeze-Dark [GTK2/3/4]
+       .oossssso-````/ossssss+`          Icons: breeze-dark [Qt], breeze [GTK2/3/4]
+      -osssssso.      :ssssssso.         Font: Noto Sans (10pt) [Qt], Noto Sans (10pt) [GTK2/3/4]
+     :osssssss/        osssso+++.        Cursor: Bibata-Modern-Ice (20px)
+    /ossssssss/        +ssssooo/-        Terminal: kitty 0.49.1
+  `/ossssso+/:-        -:/+osssso+-      Terminal Font: JetBrainsMonoNF-Regular (10pt)
+ `+sso+:-`                 `.-/+oso:     CPU: Intel(R) Core(TM) Ultra 5 226V (8) @ 4.50 GHz
+`++:.                           `-/+/    GPU: Intel Core Ultra 200V Series Processors Arc Graphics 130V/140V GPU @ 1.85 GHz [Integrated]
+.`                                 `/    Memory: 9.35 GiB / 15.19 GiB (62%)
+                                         Swap: 1.03 GiB / 4.00 GiB (26%)
+                                         Disk (/): 590.05 GiB / 936.84 GiB (63%) - ext4
+                                         Local IP (wlan0): 10.133.15.213/18
+                                         Battery (L23M4PF3): 100% [AC Connected]
+                                         Locale: en_US.UTF-8
+```

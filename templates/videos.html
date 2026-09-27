@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} - {{ config.title }}</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    {% include "header.html" %}
+
+    <main>
+        {% for video in page.extra.videos %}
+        {% set ext = video.src | split(pat=".") | last %}
+        <h3>{{ video.title }}.{{ ext }}</h3>
+
+        <video controls {% if video.autoplay %}autoplay muted{% endif %} {% if video.loop %}loop{% endif %}>
+            <source src="{{ video.src }}">
+            Your browser does not support the video tag.
+        </video>
+        {% endfor %}
+    </main>
+</body>
+
+</html>

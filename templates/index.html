@@ -9,36 +9,13 @@
 </head>
 
 <body>
-    <header>
-        <strong>ixxz.moe</strong>
-        <nav>
-            <a href="/aboutme/">about</a>
-            <a href="/blog/">blog</a>
-            <a href="/links/">links</a>
-            <a href="/importantvideos/">videos</a>
-            <span class="sep">|</span>
-            <a href="https://vivivy.bandcamp.com/">bandcamp</a>
-            <a href="https://soundcloud.com/quirm">soundcloud</a>
-            <a href="https://x.com/bnbvxcxz">x</a>
-        </nav>
-    </header>
+    {% include "header.html" %}
 
     <main>
         <h3>latest release:</h3>
         <iframe style="border: 0; width: 100%; height: 120px;"
             src="https://bandcamp.com/EmbeddedPlayer/album=2434428607/size=large/bgcol=16171c/linkcol=c8c8ff/tracklist=false/artwork=small/transparent=true/"
             seamless><a href="https://vivivy.bandcamp.com/album/eciai">ECIAI by vivivy</a></iframe>
-
-        <h3>posts:</h3>
-        <ul class="posts">
-            {% set blog = get_section(path="blog/_index.md") %}
-            {% for post in blog.pages %}
-            <li>
-                <a href="{{ post.permalink }}">{{ post.title }}</a>
-                <span class="date">{{ post.date | date(format="%m-%d-%Y") }}</span>
-            </li>
-            {% endfor %}
-        </ul>
     </main>
 
     <footer>
