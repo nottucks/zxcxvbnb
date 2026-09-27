@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <a href="/" class="site-title"><strong>ixxz.moe</strong></a>
+        <nav>
+            <a href="/aboutme/">about</a>
+            <a href="/blog/">blog</a>
+            <a href="/links/">links</a>
+            <a href="/importantvideos/">videos</a>
+            <span class="sep">|</span>
+            <a href="https://vivivy.bandcamp.com/">bandcamp</a>
+            <a href="https://soundcloud.com/quirm">soundcloud</a>
+            <a href="https://x.com/bnbvxcxz">x</a>
+        </nav>
+    </header>
+
+    <main>
+        {% if page.date %}
+            <h1 class="article-title">{{ page.title }}</h1>
+        {% endif %}
+        {{ page.content | safe }}
+    </main>
+</body>
+</html>

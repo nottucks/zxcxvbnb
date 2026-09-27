@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <a href="/">back to homepage</a>
+
+    <h1>BLOG</h1>
+    <p>sorted latest to oldest</p>
+
+    {% for year, posts in section.pages | group_by(attribute="year") %}
+        <p>{{ year }}</p>
+        {% for post in posts %}
+            <p><a href="{{ post.permalink }}">{{ post.date | date(format="%m-%d-%Y") }}</a></p>
+        {% endfor %}
+    {% endfor %}
+</body>
+</html>
