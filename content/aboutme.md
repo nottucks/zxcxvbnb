@@ -76,5 +76,8 @@ I'm a big fan of split ortholinear ergonomic keyboards. I spent all a lot of tim
 
 My current main keyboard is a Sofle v2 on zmk with two nice_oled panels. The switches are Outemu Crystal Clear V3 Silent Lemons, but I might get something different later if I find tactile switches that are as quiet without feeling mushy. The keycaps are TaiHao Thins, which were so absurdly expensive it's crazy lmfao. Shit was 50 dollars. I also sometimes bring out my Silakka54, which unfortunately had the TRRS port break off the board in my bag on the way to college. It has Outemu Crystal Clear V3 Silent Peaches in it, and just has some wholly clear XDA caps.
 
-If you want to see the [FW for my Sofle, check it out in this hotlink.](https://github.com/nottucks/zmk-sofle-oled)
+If you want to see the [FW for my Sofle, check it out in this repo.](https://github.com/nottucks/zmk-sofle-oled)
 
+# Work
+
+I work as the senior (student) sysadmin at my college for the CSci linux lab, and I also work the IT helpdesk on campus. It's honestly a shitload of work, but I enjoy it. I have a lot of experience working with Puppet, now OpenVox, and I learned I really love working in IaC. It's fun. 
