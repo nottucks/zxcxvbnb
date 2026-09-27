@@ -38,3 +38,42 @@ My name is Oliver, and I'm a CSci student currently going through a bachelor's p
                                          Battery (L23M4PF3): 100% [AC Connected]
                                          Locale: en_US.UTF-8
 ```
+```bash
+~
+❯ fastfetch --config none
+                  -`                     nottucks@AHHHHHHHHHHHHHH
+                 .o+`                    ------------------------
+                `ooo/                    OS: Arch Linux x86_64
+               `+oooo:                   Host: 82Y5 (Legion Slim 5 14APH8)
+              `+oooooo:                  Kernel: Linux 7.2.6-arch2-1
+              -+oooooo+:                 Uptime: 10 mins
+            `/:-:++oooo+:                Packages: 1 (appimage), 71 (flatpak), 2055 (pacman)
+           `/++++/+++++++:               Shell: bash 5.3.15
+          `/++++++++++++++:              Display (XV272U V): 2560x1440 in 27", 170 Hz [External]
+         `/+++ooooooooooooo/`            Display (SDC4188): 2880x1800 @ 1.33x in 15", 120 Hz [Built-in]
+        ./ooosssso++osssssso+`           Window Manager: Hyprland 0.56.2 (Wayland)
+       .oossssso-````/ossssss+`          Theme: Breeze [Qt], Breeze-Dark [GTK2/3/4]
+      -osssssso.      :ssssssso.         Icons: Colloid-Dark [Qt], breeze [GTK2/3/4]
+     :osssssss/        osssso+++.        Font: Sans Serif (9pt) [Qt], Noto Sans (10pt) [GTK2/3/4]
+    /ossssssss/        +ssssooo/-        Cursor: default (20px)
+  `/ossssso+/:-        -:/+osssso+-      Terminal: kitty 0.48.2
+ `+sso+:-`                 `.-/+oso:     Terminal Font: JetBrainsMonoNF-Regular (11pt)
+`++:.                           `-/+/    CPU: AMD Ryzen 7 7840HS (16) @ 5.14 GHz
+.`                                 `/    GPU 1: NVIDIA GeForce RTX 4060 Max-Q / Mobile [Discrete]
+                                         GPU 2: AMD Phoenix1 [Integrated]
+                                         Memory: 6.10 GiB / 29.06 GiB (21%)
+                                         Swap: 0 B / 4.00 GiB (0%)
+                                         Disk (/): 1.02 TiB / 1.79 TiB (57%) - ext4
+                                         Disk (/mnt/data): 978.84 GiB / 1.24 TiB (77%) - ext4
+                                         Local IP (enp8s0f3u1u1): 146.57.82.200/24
+                                         Battery (L22C4PA2): 80% [AC Connected]
+                                         Locale: en_US.UTF-8                    
+```
+
+What else to talk about...
+
+# Keyboards
+
+I'm a big fan of split ortholinear ergonomic keyboards. I spent all last summer getting good at using them, and now I'm about as good on a split keyboard as I am on a normal one. 
+
+## TODO: FINISH AND TALK ABOUT MY SOFLE AND MY SILAKKA54
